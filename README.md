@@ -2,7 +2,7 @@
 
 ## Steps to Use
 
-**Step 1** :Inject dobToWords module into your app i.e. generally knows as the dependency injection in the angular application which we have instantiated.  
+**Step 1** : Inject dobToWords module into your app i.e. generally knows as the dependency injection in the angular application which we have instantiated.  
  
  `app.module('appname',[dobToWords])`
   
@@ -28,8 +28,7 @@
     var dobIntoWords = convertDobToWords.convertIntoWords(dateOfBirth);
     console.log('Date of Birth in Words : '+ dobIntoWords);
  }]);
-
  ```
 ### Output
 
-`Date of Birth in words: Twenty-first April Nineteen Ninety Four`
+`Date of Birth in words: Twenty-First April Nineteen Ninety Four`
