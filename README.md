@@ -24,7 +24,7 @@
 ```
  angular.module('sampleApp',[dobToWords])
  .controller('SampleCtrl',['$scope','convertDobToWords',function($scope,convertDobToWords){
-    var dateOfBirth = new Date('04/21/1990');
+    var dateOfBirth = new Date('04/21/1994');
     var dobIntoWords = convertDobToWords.convertIntoWords(dateOfBirth);
     console.log('Date of Birth in Words : '+ dobIntoWords);
  }]);
